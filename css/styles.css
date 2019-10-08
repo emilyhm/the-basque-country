@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box; 
+  }
+  
+  a:link {
+    color: #6D6D6D;
+  }
+  
+  a:visited {
+    color: #427159
+  }
+  
+  
+  
+  a:hover {
+    color: #FFC8EF;
+  }
+  
+  a:active {
+    color: #43C0B4
+  }
+  
+  body {background-color: white;}
+  
+  .header {
+    background-color: #F75982;
+    width: 100%;
+    margin-right: 100px;
+  }
+  
+  .hero {
+    width: 98vw;
+    height: 100vh;
+    
+    /*Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    
+    background-image: url(https://assets.punchdrink.com/wp-content/uploads/2014/07/rsz_9655024469_3e279381a8_k.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+  
+   .hero h1 {
+    color: white;
+    font-family: 'Mogra', cursive;
+  }
+  
+  h1 {
+    color: black;
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+  
+  h3{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .nav li {
+          display: inline-block;
+          padding: 5px;
+          margin: 5px;
+          font-size: 20px;
+          text-decoration: none;
+          }
+  
+  .nav-links {
+     text-align: center;
+  }
+  
+  
+  .imgwidth {
+    width: 560px;
+    float:left;
+    margin-right: 50px 
+  }
+  
+  .overflow {overflow: auto;} 
+  
+  li {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .home { 
+    font-family: 'Raleway', sans-serif;
+    background-color: #F75982;
+    width:15%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  #logo a {
+           color: black;
+           display: inline-block;
+           font-family: 'Sedgwick Ave', cursive;
+           font-size: 75%;
+           float: left;
+           }
+  
+  .fab {
+    color: white;
+  }
+  
+  .thanks {
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+    font-size: 5em;
+  }
+  
+  
+  .footer #logo {
+           color: black;
+           display: inline-block;
+           font-family: 'Sedgwick Ave', cursive;
+           float: left;
+           position: absolute;
+           left: 20px;  
+           font-size: 20px
+  }
+  
+  .footer {
+    background-color: #427159;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    top: 70px;
+    bottom: 0px;
+  }
+  
+  .copyright {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    float: left;
+    height: 30px;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+  }
+  
+  .social li {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .social {
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    left: 23%; 
+    float: right;
+    width: 50%;
+    height: 25px;
+  }
+  
+  .gallery {
+    float: initial;
+  }
+  .gallery img {
+    width: 300px;
+    margin: 15px;
+  }
+  
+  .vertical {
+    float: left;
+  }
